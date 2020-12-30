@@ -1,0 +1,25 @@
+{
+  "name": "test-backend",
+  "version": "1.0.0",
+  "description": "Test Desktop Backend",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -experimental-modules Server.js"
+  },
+  "author": "I.C Manivannan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "kafka-node": "^5.0.0",
+    "moment": "^2.27.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.26",
+    "mongoose-double": "0.0.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
